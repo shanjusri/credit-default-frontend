@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { CreditCard, Users, FileText, Wallet, Loader2 } from "lucide-react";
-import GlassCard from "@/components/GlassCard";
-import FormField from "@/components/FormField";
-import ResultCard from "@/components/ResultCard";
+import GlassCard from "./GlassCard";
+import FormField from "./FormField";
+import ResultCard from "./ResultCard";
 
 const defaultValues = () => ({
   LIMIT_BAL: "", SEX: "1", EDUCATION: "1", MARRIAGE: "1", AGE: "",
